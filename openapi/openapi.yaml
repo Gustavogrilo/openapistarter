@@ -21,10 +21,10 @@ tags:
   - name: Tag
     description: This is a tag description.
 servers:
-  - url: 'https://{tenant}/api/v1'
+  - url: 'https://{tenant}'
     variables:
       tenant:
-        default: www
+        default: projecttrace.com.br/api-biodiesel-v3
         description: Your tenant id
   - url: 'https://example.com/api/v1'
 paths:
