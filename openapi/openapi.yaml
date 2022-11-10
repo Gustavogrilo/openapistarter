@@ -26,7 +26,7 @@ servers:
       tenant:
         default: projecttrace.com.br/api-biodiesel-v3
         description: Your tenant id
-  - url: 'https://example.com/api/v1'
+  - url: 'projecttrace.com.br/api-biodiesel-v3'
 paths:
   '/users/{username}':
     $ref: 'paths/users_{username}.yaml'
